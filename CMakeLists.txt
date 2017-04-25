@@ -1,23 +1,7 @@
-cmake_minimum_required(VERSION 2.8)
-project(hw6)
+cmake_minimum_required(VERSION 3.6)
+project(TommyL123_hw6)
 
-## Check for Windows ##
-if (WIN32) # true if windows (32 and 64 bit)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++0x")
-else ()
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-endif ()
+set(CMAKE_CXX_STANDARD 11)
 
-
-set(SOURCE_FILES main.cpp)
-
-add_executable(hw6_run ${SOURCE_FILES})
-
-include_directories(src)
-
-add_subdirectory(src)
-add_subdirectory(hw6_tests)
-add_subdirectory(SDL)
-
-
-target_link_libraries(hw6_run hw6_library)
+set(SOURCE_FILES main.cpp src/Circle.h src/Rectangle.h src/Square.h src/Circle.cpp src/Circle.h src/Rectangle.cpp src/Rectangle.h src/Square.cpp src/Square.h src/test.cpp src/test.h)
+add_executable(TommyL123_hw6 ${SOURCE_FILES})
