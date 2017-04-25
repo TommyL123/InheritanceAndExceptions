@@ -1,10 +1,9 @@
 //
-// Created by Tommy Lik on 4/24/17.
+// Created by Tommy Lik on 4/25/17.
 //
 
-//#ifndef TOMMYL123_HW6_SQUARE_H
-//#define TOMMYL123_HW6_SQUARE_H
-
+#ifndef TOMMYL123_HW6_SQUARE_H
+#define TOMMYL123_HW6_SQUARE_H
 #include "Rectangle.h"
 #include "Point2D.h"
 #pragma once
@@ -39,7 +38,4 @@ template<class T> Square<T>::Square(T x, T y, T side)
 
     }
 }
-
-
-
 #endif //TOMMYL123_HW6_SQUARE_H

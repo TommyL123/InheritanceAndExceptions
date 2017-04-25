@@ -1,10 +1,9 @@
 //
-// Created by Tommy Lik on 4/24/17.
+// Created by Tommy Lik on 4/25/17.
 //
 
-//#ifndef TOMMYL123_HW6_RECTANGLE_H
-//#define TOMMYL123_HW6_RECTANGLE_H
-
+#ifndef TOMMYL123_HW6_RECTANGLE_H
+#define TOMMYL123_HW6_RECTANGLE_H
 
 #include "Point2D.h"
 #include "CustomException.h"
@@ -88,5 +87,6 @@ template<class T> float Rectangle<T>::circumference() const
 
 
 
-}
+
+
 #endif //TOMMYL123_HW6_RECTANGLE_H

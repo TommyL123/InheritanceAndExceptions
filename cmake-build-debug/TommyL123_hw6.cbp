@@ -80,33 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/main.cpp">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/Circle.cpp">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/Circle.h">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/Rectangle.cpp">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/Rectangle.h">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/Square.cpp">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/Square.h">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/test.cpp">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
-		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/src/test.h">
-			<Option target="TommyL123_hw6"/>
-		</Unit>
 		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

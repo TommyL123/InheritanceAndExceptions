@@ -2,14 +2,13 @@
 // Created by Tommy Lik on 4/24/17.
 //
 
+#ifndef TOMMYL123_HW6_CIRCLE_H
+#define TOMMYL123_HW6_CIRCLE_H
 
 #include "Point2D.h"
 #include "CustomException.h"
 #pragma once
 
-
-//#ifndef TOMMYL123_HW6_CIRCLE_H
-//#define TOMMYL123_HW6_CIRCLE_H
 
 template<class T> class Circle:public Point2D<T>
 {
@@ -77,6 +76,5 @@ template<class T> float Circle<T>::circumference() const
 {
     return (2*3.14*radius);
 }
-
 
 #endif //TOMMYL123_HW6_CIRCLE_H

@@ -1,20 +1,7 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tommythemoney/Documents/TommyL123-hw6/main.cpp" "/Users/tommythemoney/Documents/TommyL123-hw6/cmake-build-debug/CMakeFiles/TommyL123_hw6.dir/main.cpp.o"
-  "/Users/tommythemoney/Documents/TommyL123-hw6/src/Circle.cpp" "/Users/tommythemoney/Documents/TommyL123-hw6/cmake-build-debug/CMakeFiles/TommyL123_hw6.dir/src/Circle.cpp.o"
-  "/Users/tommythemoney/Documents/TommyL123-hw6/src/Rectangle.cpp" "/Users/tommythemoney/Documents/TommyL123-hw6/cmake-build-debug/CMakeFiles/TommyL123_hw6.dir/src/Rectangle.cpp.o"
-  "/Users/tommythemoney/Documents/TommyL123-hw6/src/Square.cpp" "/Users/tommythemoney/Documents/TommyL123-hw6/cmake-build-debug/CMakeFiles/TommyL123_hw6.dir/src/Square.cpp.o"
-  "/Users/tommythemoney/Documents/TommyL123-hw6/src/test.cpp" "/Users/tommythemoney/Documents/TommyL123-hw6/cmake-build-debug/CMakeFiles/TommyL123_hw6.dir/src/test.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
