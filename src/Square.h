@@ -1,41 +1,77 @@
 //
-// Created by Tommy Lik on 4/25/17.
+// Created by Tommy Lik on 4/24/17.
 //
 
-#ifndef TOMMYL123_HW6_SQUARE_H
-#define TOMMYL123_HW6_SQUARE_H
+//#ifndef TOMMYL123_HW6_SQUARE_H
+//#define TOMMYL123_HW6_SQUARE_H
+
+
 #include "Rectangle.h"
 #include "Point2D.h"
 #pragma once
 
 
-template<class T> class Square: public Rectangle<T>
+template<class T>
 
-{
+class Circle : public Point2D<T> {
 
-protected:
-    T side;
+private:
+
+    T radius;
+
 public:
-    Square(T x, T y, T side);
+    Circle() : radius(0.0) {}
+
+    Circle(T x, T y, T newRadius) : Point2D<T>(x, y){
+
+        radius=newRadius;
+
+        if ( radius <= 0){
+
+            throw CustomException(22);
+        }
+    }
+    T getRadius();
+
+    void setRadius(T newRadius);
+
+    virtual float area() const;
+
+    virtual float circumference() const;
 
 };
 
-template<class T> Square<T>::Square(T x, T y, T side)
+template<class T>
 
-{
 
-    this->x = x;
-    this->y = y;
-    this->width = side;
-    this->height = side;
-    this->side = side;
+T Circle<T>::getRadius() {
 
-    if (this->height < 0 || this->width < 0 || this->side < 0)
+    return radius;
+}
 
-    {
+template<class T>
 
-        throw CustomException(33);
+void Circle<T>::setRadius(T newRadius) {
 
-    }
+    radius = newRadius;
+}
+
+
+template<class T>
+
+float Circle<T>::area() const {
+
+    const float pi = 3.14;
+    
+    return pi * (radius * radius);
+}
+
+template<class T>
+
+float Circle<T>::circumference() const {
+    
+    const float pi = 3.14;
+    return 2 * pi * radius;
+
 }
 #endif //TOMMYL123_HW6_SQUARE_H
